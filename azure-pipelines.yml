@@ -17,8 +17,8 @@ steps:
     goals: 'clean package'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '21.0'
+    javaHomeOption: 'path'
+    jdkDirectory: '/usr/lib/jvm/java-21-openjdk-amd64'
     mavenVersionOption: 'Default'
     mavenOptions: '-Xmx3072m'
     mavenAuthenticateFeed: false
